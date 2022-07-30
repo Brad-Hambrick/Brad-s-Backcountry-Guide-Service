@@ -20,6 +20,7 @@ h2 {
 
 main {
   padding: 60px 0;
+  background-color: #121c10;
 }
 
 li {
@@ -33,6 +34,10 @@ a {
   color: #FDF8F5;
 }
 
+div {
+  display: inline-flex;
+}
+
 header,
 footer {
   height: 60px;
@@ -43,7 +48,7 @@ footer {
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  border-bottom: 4px solid #DDAF94;
 }
 
 footer {
@@ -56,18 +61,24 @@ footer {
 
 figure {
   margin-bottom: 40px;
+  margin-left: 355px;
 }
 
 img {
   display: block;
   margin: 20px auto;
+  height: 302px;
+  border: solid 5px darkolivegreen;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  background-color: #c57f57;
+  text-align: center;
 }
 
 form {
@@ -106,6 +117,9 @@ button {
 /* Class Selectors */
 .text-center {
   text-align: center;
+  color: lightgray;
+  margin: 11px 0px 0 0px;
+  
 }
 
 .text-right {
