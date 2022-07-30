@@ -4,7 +4,7 @@
   padding:0;  
 }
 
-/* Element Selectors */
+/* Styling the entire body of the page with font, background colors, and text */
 body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
@@ -13,27 +13,32 @@ body {
   color: #f7faf7;
 }
 
+/*create a 20 pixel marigin around both headers*/
 h1,
 h2 {
   margin: 20px;
 }
 
+/*60 pixels of top padding and background color to the main portion of the website*/
 main {
   padding: 60px 0;
   background-color: #121c10;
 }
 
+/*display the nav bar list items inline/horizontal and give 20 pixels of padding on the bottom */
 li {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
 }
 
+/* set color of the nav bar text*/
 a {
   text-decoration: none;
   color: #FDF8F5;
 }
 
+/*size the header and footer and give background color*/
 header,
 footer {
   height: 60px;
@@ -42,11 +47,13 @@ footer {
   background-color: #266150;
 }
 
+/*fixing the top nav to remain at the top of the page and give a 4 pixel solid border along the bottom*/
 header {
   position: fixed;
   border-bottom: 4px solid #DDAF94;
 }
 
+/*give the footer absolute positioning, 10 pixel sold border along bottom, and text color*/
 footer {
   position: absolute;
   margin-top: 0;
@@ -55,11 +62,13 @@ footer {
   color: #FDF8F5;    
 }
 
+/* 40 pixel margin underneath the main image */
 figure {
   margin-bottom: 40px;
   
 }
 
+/*styling the main image with margin, border, padding, and size */
 img {
   display: block;
   margin: 20px auto;
@@ -69,17 +78,16 @@ img {
   padding: 5px;
 }
 
+/* Styling that you wish to apply to both "sections" */
 section {
   margin-bottom: 0;
   padding: 3px 10px 20px 10px;
   border-top: 3px solid #DDAF94;
   text-align: center;
-  
-
 }
 
+/* Center the form on the page */
 form {
-  /* Center the form on the page */
   margin: 0 auto;
   width: 500px;
   padding: 10px;
@@ -87,11 +95,13 @@ form {
   border-radius: 20px;
 }
 
+/* styling for "name" and "email" labels*/
 label {
   display: inline-block;
   width: 100px;
 }
   
+/* sizing and styling for the text boxes for consumers to type name and email into */
 input, 
 textarea {
   box-sizing: border-box;
@@ -99,11 +109,13 @@ textarea {
   border: 1px solid #4F4846;
 }
 
+/* align the text input boxes vertically */
 textarea {
   vertical-align: top;
   height: 60px;
 }
-  
+
+/* sizing, background and text color for the "Send" button */
 button {
   height: 40px;
   width: 120px;
@@ -112,24 +124,27 @@ button {
 }
  
 /* Class Selectors */
+/* add a background image to the main portion of the webpage */
 .background-image {
   background-image: url(../images/IMG_9759.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
+/* Text color and centering both headers, "Contact Me", "SEND", and the copyright in the footer */
 .text-center {
   text-align: center;
   color: lightgray;
-  
 }
 
+/* Centering the nav bar and name and email labels, sizing the font, and adding shadow */
 .text-right {
   text-align: center;
   font-size: x-large;
   text-shadow: 2px 2px 4px #c36e43;
 }
 
+/* Add background color to the bottom "Contact Me" section */
 #contact {
   background-color: #266150;
 }
