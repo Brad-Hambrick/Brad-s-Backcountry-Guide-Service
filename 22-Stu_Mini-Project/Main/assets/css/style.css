@@ -123,5 +123,7 @@ button {
 }
 
 .text-right {
-  text-align: right;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 2px 2px 4px #c36e43;
 }
