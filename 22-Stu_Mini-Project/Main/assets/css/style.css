@@ -10,7 +10,7 @@ body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
   background-color: #FDF8F5;
-  color: #4F4846;
+  color: #f7faf7;
 }
 
 h1,
@@ -32,10 +32,6 @@ li {
 a {
   text-decoration: none;
   color: #FDF8F5;
-}
-
-div {
-  display: inline-flex;
 }
 
 header,
@@ -61,7 +57,7 @@ footer {
 
 figure {
   margin-bottom: 40px;
-  margin-left: 355px;
+  
 }
 
 img {
@@ -75,10 +71,11 @@ img {
 
 section {
   margin-bottom: 0;
-  padding: 20px 10px 40px 10px;
+  padding: 3px 10px 20px 10px;
   border-top: 3px solid #DDAF94;
-  background-color: #c57f57;
   text-align: center;
+  
+
 }
 
 form {
@@ -115,10 +112,15 @@ button {
 }
  
 /* Class Selectors */
+.background-image {
+  background-image: url(../images/IMG_9759.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .text-center {
   text-align: center;
   color: lightgray;
-  margin: 11px 0px 0 0px;
   
 }
 
@@ -126,4 +128,8 @@ button {
   text-align: center;
   font-size: x-large;
   text-shadow: 2px 2px 4px #c36e43;
+}
+
+#contact {
+  background-color: #266150;
 }
