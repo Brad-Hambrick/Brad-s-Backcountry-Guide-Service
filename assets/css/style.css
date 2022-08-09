@@ -122,6 +122,16 @@ button {
   background-color: #4F4846;
   color: #FDF8F5;
 }
+
+/* Add hover affect to the "Send" button */
+button:hover {
+  color: #121c10;
+}
+
+/* Add hover affect to the nav bar */
+a:hover {
+  color: #121c10;
+}
  
 /* Class Selectors */
 /* add a background image to the main portion of the webpage */
